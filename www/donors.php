@@ -15,7 +15,7 @@
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
-						<b>List of Donors</b>
+						<b>List of Plasma Donors</b>
 						<span class="float:right"><a class="btn btn-primary btn-block btn-sm col-sm-2 float-right" href="javascript:void(0)" id="new_donor">
 					<i class="fa fa-plus"></i> New Entry
 				</a></span>

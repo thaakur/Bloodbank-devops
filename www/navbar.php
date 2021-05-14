@@ -12,8 +12,8 @@
 		
 		<div class="sidebar-list">
 				<a href="index.php?page=home" class="nav-item nav-home"><span class='icon-field'><i class="fa fa-home text-danger"></i></span> Home</a>
-				<a href="index.php?page=donors" class="nav-item nav-donors"><span class='icon-field'><i class="fa fa-user-friends text-danger"></i></span> Donors</a>
-				<a href="index.php?page=donations" class="nav-item nav-donations"><span class='icon-field'><i class="fa fa-tint text-danger"></i></span> Blood Donations</a>
+				<a href="index.php?page=donors" class="nav-item nav-donors"><span class='icon-field'><i class="fa fa-user-friends text-danger"></i></span> Plasma Donors</a>
+				<a href="index.php?page=donations" class="nav-item nav-donations"><span class='icon-field'><i class="fa fa-tint text-danger"></i></span>  Blood Donations</a>
 				<a href="index.php?page=requests" class="nav-item nav-requests"><span class='icon-field'><i class="fa fa-th-list text-danger"></i></span> Requests</a>
 				<a href="index.php?page=handedovers" class="nav-item nav-handedovers"><span class='icon-field'><i class="fa fa-toolbox text-danger"></i></span> Handed Over</a>
 				<?php if($_SESSION['login_type'] == 1): ?>

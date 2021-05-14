@@ -7,15 +7,14 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title><?php echo isset($_SESSION['system']['name']) ? $_SESSION['system']['name'] : '' ?></title>
- 	
-
 <?php
+  ob_start();
   if(!isset($_SESSION['login_id']))
-      header('location:login.php');
-  include('./header.php'); 
- // include('./auth.php'); 
+    echo("<script>location.href=/login.php?msg=$msg';</script>");  
+    //header('location:login.php');
+  include('./header.php');
+  ob_end_flush();
 ?>
-
 </head>
 <style>
 	body{
